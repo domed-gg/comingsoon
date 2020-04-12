@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <title>DOMED.gg</title>
+        <style>
+            html, body {
+                padding: 0;
+                margin: 0;
+                height: 100vh;
+                width: 100vw;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: black;
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                font-weight: 600;
+                flex-wrap: wrap;
+                overflow: auto;
+            }
+
+            div {
+                text-align: center;
+            }
+
+            h1, h3 {
+                color: white;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <img src="data:image/png;base64,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" />
+            <h1>DOMED.gg</h1>
+            <h3>Coming soon.</h3>
+        </div>
+    </body>
+</html>
